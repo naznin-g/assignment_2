@@ -197,7 +197,49 @@ body {
 .plant-card button:hover {
   background-color: #219653;
 }
+.plants-lover-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+.plants-lover-container {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  /*margin: auto;*/
+  flex-wrap: wrap;
+}
+.lover-img {
+  flex: 1;
+  min-width: 300px;
+}
 
+.lover-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.lover-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.lover-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: left;
+}
+
+.lover-text ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.8;
+  text-align:left;
+}
 
 
 
@@ -278,8 +320,31 @@ body {
   .section-header p {
     font-size: 1rem;
   }
+
+/*plant-lover*/
+.plants-lover-container {
+  flex-direction: column;
+  text-align: left;
 }
 
+.lover-img {
+  order: 1;
+  width: 100%;
+}
+
+.lover-text {
+  order: 2;
+  padding-top: 20px;
+}
+
+.lover-text h2 {
+  font-size: 1.6rem;
+}
+
+.lover-text ul {
+  font-size: 1rem;
+}
+}
 
 
 
