@@ -240,6 +240,132 @@ body {
   line-height: 1.8;
   text-align:left;
 }
+.join-section {
+  background-image: url('./assets/news-letter-bg.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 20px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.join-overlay {
+  
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.join-overlay h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+}
+
+.join-form input {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  
+  flex: 1 1 250px;
+  max-width: 500px;
+}
+
+.join-form button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #e95a08;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-form button:hover {
+  background-color: #d18b00;
+}
+.site-footer {
+  background-color: #f1f1f1;
+  padding: 40px 20px;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex:3;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-left {
+  flex: 1 1 200px;
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-left p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px 40px;
+  flex: 1 1 200px;
+}
+.footer-links li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #5aaf76;
+}
+
+.footer-social {
+  flex: 1 1 200px;
+}
+
+.footer-social h4 {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #5aaf76;
+}
+
+
+
+
+
 
 
 
@@ -343,6 +469,42 @@ body {
 
 .lover-text ul {
   font-size: 1rem;
+}
+
+.join-overlay h2 {
+  font-size: 1.8rem;
+}
+
+.join-form {
+  flex:5;
+  align-items: center;
+}
+
+.join-form input{
+  flex:4;
+  max-width: none;
+}
+.join-form button {
+  flex:1;
+  max-width: none;
+}
+.footer-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-links {
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
 }
 }
 
